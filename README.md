@@ -1,77 +1,16 @@
-# 안녕하세요, 저는 정휘현입니다 👋
+## 정휘현 - Unity Client Programmer
 
-**Unity Client Programmer** · 모바일 RPG 전문 · 경력 6년 8개월
+모바일 수집형 RPG에서 가챠, 인앱 결제, 스탯, 던전 등
+핵심 시스템을 설계해 온 Unity C# 클라이언트 프로그래머입니다.
+렌더링 구조 설계, 에디터 툴 개발, 시스템 설계를 주로 다룹니다.
 
-국내 모바일 RPG 게임 3편의 클라이언트 개발에 참여했습니다.  
-성능 최적화, 렌더링 파이프라인, UI 아키텍처 설계를 주로 담당했습니다.
+- **Spine 2D 300체 최적화**: CPU 13.07ms → 4.29ms(약 3배), 58 → 129 FPS - 프로파일링 기반 원인 규명
+- **서브컬처 스타일 NPR 렌더링**: Shader Graph 없이 HLSL 직접 작성, 기법 6종 + 에디터 툴 6종
+- **품질 관리**: EditMode/NUnit 단위 테스트 34개, UPM 패키지 4종 배포
+- **Spec-Driven Development**: 명세 → 태스크 분해 → 구현 → 검증을 기능 단위 커밋으로 공개
 
----
+**전체 프로젝트와 상세 내용 → [frenil-portfolio](https://github.com/Frenil-client/frenil-portfolio)**
 
-## 🛠 Tech Stack
+`Unity` `C#` `URP` `HLSL` `Spine` `UGUI` `Addressables` `ScriptableObject` `MVVM`
 
-**Engine & Language**  
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-
-**Rendering**  
-![URP](https://img.shields.io/badge/URP-000000?style=flat-square&logo=unity&logoColor=white)
-![HLSL](https://img.shields.io/badge/HLSL-5C2D91?style=flat-square&logo=microsoft&logoColor=white)
-
-**Architecture & Tools**  
-![Addressables](https://img.shields.io/badge/Addressables-000000?style=flat-square&logo=unity&logoColor=white)
-![MVVM](https://img.shields.io/badge/MVVM-FF6B35?style=flat-square)
-![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=flat-square&logo=google&logoColor=white)
-![Protobuf](https://img.shields.io/badge/Protobuf-4285F4?style=flat-square&logo=google&logoColor=white)
-
-**UI**  
-![UGUI](https://img.shields.io/badge/UGUI-000000?style=flat-square&logo=unity&logoColor=white)
-![NGUI](https://img.shields.io/badge/NGUI-444444?style=flat-square)
-
----
-
-## 💼 경력
-
-| 기간 | 회사 | 프로젝트 | 역할 |
-|---|---|---|---|
-| 2022 – 현재 | 클로버게임즈 | Ayakashi Rise | Unity Client Programmer |
-| 2020 – 2022 | IMC게임즈 | Tree of Savior M | Unity Client Programmer |
-| 2018 – 2020 | 애프터타임 | 모바일 RPG | Unity Client Programmer |
-
----
-
-## 🔧 주요 작업
-
-**렌더링 & 그래픽스**
-- URP 파이프라인 설정 및 HLSL 셰이더 개발
-- Vulkan / OpenGLES3 크로스플랫폼 호환성 대응
-- 40+ 게임 씬의 조명 환경 관리 자동화 (ScriptableObject + Addressables)
-
-**UI 시스템**
-- UGUI/NGUI 기반 UI 프레임워크 구축 및 유지보수
-- MVVM 패턴 기반 UI 아키텍처 설계
-
-**서버 연동**
-- gRPC / Protocol Buffers 기반 클라이언트-서버 통신 구현
-- 가챠 시스템, 캐릭터 스탯 연산, 인벤토리 시스템 등 게임플레이 로직 구현
-
-**에디터 & 툴**
-- 아트팀 워크플로우 개선을 위한 커스텀 Unity Editor 툴 개발
-- Unity Timeline 기반 커스텀 툴 제작
-
----
-
-## 📂 Featured Repositories
-
-| 저장소 | 설명 |
-|---|---|
-| 🔗 [unity-ugui-framework](https://github.com/Frenil-client/unity-ugui-framework) | MVVM 패턴 기반 UGUI 시스템 구현 샘플 |
-| 🔗 [unity-addressables-lighting](https://github.com/Frenil-client/unity-addressables-lighting) | Addressables를 활용한 씬 조명 관리 시스템 |
-| 🔗 [unity-shader-samples](https://github.com/Frenil-client/unity-shader-samples) | URP 환경 HLSL 셰이더 샘플 모음 |
-
----
-
-## 📫 Contact
-
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-
+📧 silsen@naver.com
